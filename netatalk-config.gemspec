@@ -8,8 +8,8 @@ Gem::Specification.new do |gem|
   gem.version       = NetatalkConfig::VERSION
   gem.authors       = ["Jens Bissinger"]
   gem.email         = ["mail@jens-bissinger.de"]
-  gem.description   = %q{TODO: Write a gem description}
-  gem.summary       = %q{TODO: Write a gem summary}
+  gem.description   = %q{netatalk configuration using ruby}
+  gem.summary       = %q{e.g. for generating afp.conf}
   gem.homepage      = ""
 
   gem.files         = `git ls-files`.split($/)
