@@ -5,7 +5,7 @@ require 'netatalk-config/version'
 
 Gem::Specification.new do |gem|
   gem.name          = "netatalk-config"
-  gem.version       = Netatalk::Config::VERSION
+  gem.version       = NetatalkConfig::VERSION
   gem.authors       = ["Jens Bissinger"]
   gem.email         = ["mail@jens-bissinger.de"]
   gem.description   = %q{TODO: Write a gem description}

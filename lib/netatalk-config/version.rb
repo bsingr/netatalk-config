@@ -1,5 +1,3 @@
-module Netatalk
-  module Config
-    VERSION = "0.0.1"
-  end
+module NetatalkConfig
+  VERSION = "0.0.1"
 end
