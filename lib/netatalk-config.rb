@@ -8,7 +8,11 @@ module NetatalkConfig
     end
 
     def shares
-      @shares ||= {}
+      @shares || clear
+    end
+
+    def clear
+      @shares = {}
     end
 
   private

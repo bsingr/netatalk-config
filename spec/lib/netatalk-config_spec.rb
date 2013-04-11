@@ -2,6 +2,8 @@ require "spec_helper"
 require "netatalk-config"
 
 describe NetatalkConfig do
+  before { NetatalkConfig.clear }
+
   context 'no shares' do
     its('afp') { should match(/\A\s*\z/) }
   end
@@ -38,5 +40,5 @@ describe NetatalkConfig do
     include_context 'advanced share'
     its('afp') { should include("[simple]\n  path = /simple/path") }
     its('afp') { should include("[advanced]\n  path = /advanced/path\n  time machine = yes") }
-  end   
+  end
 end
