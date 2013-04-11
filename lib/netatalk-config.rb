@@ -1,3 +1,4 @@
+require "erb"
 require "netatalk-config/version"
 
 module NetatalkConfig
